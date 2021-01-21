@@ -213,6 +213,11 @@ export default {
     display: inline-flex;
     cursor: pointer;
     justify-content: center;
+    transition: all .3s ease-out;
+
+    &:hover {
+      box-shadow: 0px 2px 6px rgba($color: #000000, $alpha: .3);
+    }
 
     p {
       width: 60%;
